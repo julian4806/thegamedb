@@ -1,0 +1,76 @@
+body {
+  background: #f4f4f4;
+}
+
+.banner {
+  background: #a631cd;
+  background: -webkit-linear-gradient(to right, #a631cd, #e52f2f);
+  background: linear-gradient(to right, #a631cd, #e52f2f);
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+/* dropdown */
+.btn-fixed {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+}
+
+#console-menu-btn {
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+#console-menu-btn:hover {
+  transform: scale(1.05);
+}
+
+#console-menu-btn:focus {
+  outline: none;
+}
+
+.console-menu {
+  position: absolute;
+  right: 0;
+  bottom: 50px;
+  right: 0px;
+  width: 150px;
+  background-color: #fff;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.hidden {
+  display: none;
+}
+
+.console-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+
+.console-menu ul li {
+  padding: 5px;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.console-menu ul li:hover {
+  background-color: #f1f1f1;
+}

@@ -10,9 +10,9 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
 
-    <link rel='stylesheet' href='style.css'>
-    <script src='script.js' defer></script>
-    <link rel='stylesheet' href='bootstrap.min.css'>
+    <link rel='stylesheet' href='assets/css/style.css'>
+    <script src='assets/js/script.js' defer></script>
+    <link rel='stylesheet' href='assets/css/bootstrap.min.css'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -50,6 +50,10 @@
             <div class="col-lg-12 mx-auto">
                 <div class="text-white p-5 shadow-sm rounded banner">
                     <h1 class="display-4">Nintendo GameCube Games</h1>
+                    <p class="small small-hidden">The GameCube is a home video game console developed and released by
+                        Nintendo in Japan on September 14, 2001, in North America on November 18, 2001, and in PAL
+                        territories in 2002. It is the successor to the Nintendo 64 (1996), and predecessor of the Wii
+                        (2006).</p>
                 </div>
             </div>
         </div>
@@ -57,9 +61,35 @@
         <div class="row" id="card-container">
             <!-- card start -->
             <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
-                <div class="bg-white rounded shadow-sm">
-                    <div class="p-4 pb-0 ">
-                        <img src="cover.jpg" alt="" class="img-fluid card-img-top rounded">
+                <div class="bg-white shadow-sm">
+                    <div class="p-4 pb-0">
+                        <div class="bg-light rounded">
+                            <img src="assets/img/cover.jpg" class="img-fluid card-img-top rounded">
+                            <div class="p-1">
+                                <div>
+                                    <span class="text-secondary">Rating: </span>
+                                    <span>8.0</span>
+                                </div>
+                                <div>
+                                    <span class="text-secondary">Release: </span>
+                                    <span>2003</span>
+                                </div>
+                                <div>
+                                    <span class="text-secondary">Genre: </span>
+                                    <span>Racing, Arcade</span>
+                                </div>
+                                <div>
+                                    <span class="text-secondary">Platform: </span>
+                                    <span>GameCube, Wii</span>
+                                </div>
+                                <div>
+                                    <span class="text-secondary">Regions: </span>
+                                    <img src="assets/img/regions/japan.png" style="height: 14px;">
+                                    <img src="assets/img/regions/europe.png" style="height: 14px;">
+                                    <img src="assets/img/regions/usa.png" style="height: 14px;">
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="p-4">
                         <h5 class="text-dark">Mario Kart: Double Dash!!</h5>
@@ -83,202 +113,27 @@
                 </div>
             </div>
             <!-- card end -->
-            <!-- card start -->
-            <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
-                <div class="bg-white rounded shadow-sm">
-                    <div class="p-4 pb-0 ">
-                        <img src="cover.jpg" alt="" class="img-fluid card-img-top rounded">
-                    </div>
-                    <div class="p-4">
-                        <h5 class="text-dark">Mario Kart: Double Dash!!</h5>
-                        <p class="small text-muted mb-0">
-                            Mario Kart: Double Dash!! is a racing game developed and published by Nintendo for the
-                            GameCube and a part of the Mario Kart series...
-                        </p>
-                        <div class="d-flex gap-2 mt-4">
-                            <div class="d-flex align-items-center rounded-pill bg-light px-3 py-2 pointer w-100">
-                                <div class="small mb-0">
-                                    <span class="font-weight-bold">read more...</span>
-                                </div>
-                            </div>
-                            <div class=" rounded-pill bg-light px-3 py-2 pointer">
-                                <span class="font-weight-bold">
-                                    <i class="fa-solid fa-heart"></i>
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- card end -->
-            <!-- card start -->
-            <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
-                <div class="bg-white rounded shadow-sm">
-                    <div class="p-4 pb-0 ">
-                        <img src="cover.jpg" alt="" class="img-fluid card-img-top rounded">
-                    </div>
-                    <div class="p-4">
-                        <h5 class="text-dark">Mario Kart: Double Dash!!</h5>
-                        <p class="small text-muted mb-0">
-                            Mario Kart: Double Dash!! is a racing game developed and published by Nintendo for the
-                            GameCube and a part of the Mario Kart series...
-                        </p>
-                        <div class="d-flex gap-2 mt-4">
-                            <div class="d-flex align-items-center rounded-pill bg-light px-3 py-2 pointer w-100">
-                                <div class="small mb-0">
-                                    <span class="font-weight-bold">read more...</span>
-                                </div>
-                            </div>
-                            <div class=" rounded-pill bg-light px-3 py-2 pointer">
-                                <span class="font-weight-bold">
-                                    <i class="fa-solid fa-heart"></i>
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- card end -->
-            <!-- card start -->
-            <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
-                <div class="bg-white rounded shadow-sm">
-                    <div class="p-4 pb-0 ">
-                        <img src="cover.jpg" alt="" class="img-fluid card-img-top rounded">
-                    </div>
-                    <div class="p-4">
-                        <h5 class="text-dark">Mario Kart: Double Dash!!</h5>
-                        <p class="small text-muted mb-0">
-                            Mario Kart: Double Dash!! is a racing game developed and published by Nintendo for the
-                            GameCube and a part of the Mario Kart series...
-                        </p>
-                        <div class="d-flex gap-2 mt-4">
-                            <div class="d-flex align-items-center rounded-pill bg-light px-3 py-2 pointer w-100">
-                                <div class="small mb-0">
-                                    <span class="font-weight-bold">read more...</span>
-                                </div>
-                            </div>
-                            <div class=" rounded-pill bg-light px-3 py-2 pointer">
-                                <span class="font-weight-bold">
-                                    <i class="fa-solid fa-heart"></i>
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- card end -->
-            <!-- card start -->
-            <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
-                <div class="bg-white rounded shadow-sm">
-                    <div class="p-4 pb-0 ">
-                        <img src="cover.jpg" alt="" class="img-fluid card-img-top rounded">
-                    </div>
-                    <div class="p-4">
-                        <h5 class="text-dark">Mario Kart: Double Dash!!</h5>
-                        <p class="small text-muted mb-0">
-                            Mario Kart: Double Dash!! is a racing game developed and published by Nintendo for the
-                            GameCube and a part of the Mario Kart series...
-                        </p>
-                        <div class="d-flex gap-2 mt-4">
-                            <div class="d-flex align-items-center rounded-pill bg-light px-3 py-2 pointer w-100">
-                                <div class="small mb-0">
-                                    <span class="font-weight-bold">read more...</span>
-                                </div>
-                            </div>
-                            <div class=" rounded-pill bg-light px-3 py-2 pointer">
-                                <span class="font-weight-bold">
-                                    <i class="fa-solid fa-heart"></i>
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- card end -->
-            <!-- card start -->
-            <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
-                <div class="bg-white rounded shadow-sm">
-                    <div class="p-4 pb-0 ">
-                        <img src="cover.jpg" alt="" class="img-fluid card-img-top rounded">
-                    </div>
-                    <div class="p-4">
-                        <h5 class="text-dark">Mario Kart: Double Dash!!</h5>
-                        <p class="small text-muted mb-0">
-                            Mario Kart: Double Dash!! is a racing game developed and published by Nintendo for the
-                            GameCube and a part of the Mario Kart series...
-                        </p>
-                        <div class="d-flex gap-2 mt-4">
-                            <div class="d-flex align-items-center rounded-pill bg-light px-3 py-2 pointer w-100">
-                                <div class="small mb-0">
-                                    <span class="font-weight-bold">read more...</span>
-                                </div>
-                            </div>
-                            <div class=" rounded-pill bg-light px-3 py-2 pointer">
-                                <span class="font-weight-bold">
-                                    <i class="fa-solid fa-heart"></i>
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- card end -->
-            <!-- card start -->
-            <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
-                <div class="bg-white rounded shadow-sm">
-                    <div class="p-4 pb-0 ">
-                        <img src="cover.jpg" alt="" class="img-fluid card-img-top rounded">
-                    </div>
-                    <div class="p-4">
-                        <h5 class="text-dark">Mario Kart: Double Dash!!</h5>
-                        <p class="small text-muted mb-0">
-                            Mario Kart: Double Dash!! is a racing game developed and published by Nintendo for the
-                            GameCube and a part of the Mario Kart series...
-                        </p>
-                        <div class="d-flex gap-2 mt-4">
-                            <div class="d-flex align-items-center rounded-pill bg-light px-3 py-2 pointer w-100">
-                                <div class="small mb-0">
-                                    <span class="font-weight-bold">read more...</span>
-                                </div>
-                            </div>
-                            <div class=" rounded-pill bg-light px-3 py-2 pointer">
-                                <span class="font-weight-bold">
-                                    <i class="fa-solid fa-heart"></i>
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- card end -->
-            <!-- card start -->
-            <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
-                <div class="bg-white rounded shadow-sm">
-                    <div class="p-4 pb-0 ">
-                        <img src="cover.jpg" alt="" class="img-fluid card-img-top rounded">
-                    </div>
-                    <div class="p-4">
-                        <h5 class="text-dark">Mario Kart: Double Dash!!</h5>
-                        <p class="small text-muted mb-0">
-                            Mario Kart: Double Dash!! is a racing game developed and published by Nintendo for the
-                            GameCube and a part of the Mario Kart series...
-                        </p>
-                        <div class="d-flex gap-2 mt-4">
-                            <div class="d-flex align-items-center rounded-pill bg-light px-3 py-2 pointer w-100">
-                                <div class="small mb-0">
-                                    <span class="font-weight-bold">read more...</span>
-                                </div>
-                            </div>
-                            <div class=" rounded-pill bg-light px-3 py-2 pointer">
-                                <span class="font-weight-bold">
-                                    <i class="fa-solid fa-heart"></i>
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- card end -->
+        </div>
+
+
+        <div>
+            <ul class="pagination">
+                <li class="page-item">
+                    <a class="page-link text-black-50" href="#" aria-label="Previous">
+                        <span aria-hidden="true">&laquo;</span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                </li>
+                <li class="page-item"><a class="page-link text-black-50" href="#">1</a></li>
+                <li class="page-item"><a class="page-link text-black-50" href="#">2</a></li>
+                <li class="page-item"><a class="page-link text-black-50" href="#">3</a></li>
+                <li class="page-item">
+                    <a class="page-link text-black-50" href="#" aria-label="Next">
+                        <span aria-hidden="true">&raquo;</span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </li>
+            </ul>
         </div>
     </div>
 
